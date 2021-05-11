@@ -11,7 +11,7 @@ import service.OrderService;
 public class OutSideOrderServiceImpl implements OrderService {
 
   @Override
-  public String saveOrders() {
-    return "调用外部订单服务！下单成功 单号 222222";
+  public void saveOrders() {
+    System.out.println("调用外部订单服务！下单成功 单号 222222");
   }
 }

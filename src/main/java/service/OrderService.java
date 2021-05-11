@@ -1,5 +1,5 @@
 package service;
 
 public interface OrderService {
-  String saveOrders();
+  void saveOrders();
 }

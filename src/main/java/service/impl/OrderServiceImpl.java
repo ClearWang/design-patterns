@@ -11,7 +11,7 @@ import service.OrderService;
 public class OrderServiceImpl implements OrderService {
 
   @Override
-  public String saveOrders() {
-    return "调用本地订单服务！下单成功 单号 111111";
+  public void saveOrders() {
+    System.out.println("调用本地订单服务！下单成功 单号 111111");
   }
 }
