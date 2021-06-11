@@ -10,3 +10,6 @@
     jdk动态代理相关可以参考我github开源的另外一个demo总结: java-proxys
      
 ###3.行为型设计模式
+###4.SPI-Service Provider Interface设计思想(非设计模式)
+设计思想类似于策略模式,只不过策略模式通过不同实现类来隔离功能
+但是SPI是通过配置来隔离功能达到动态拓展的目的
